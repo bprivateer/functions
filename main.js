@@ -28,13 +28,14 @@ console.log(maxOfThree(5, 6, 7))
 // Write a function that takes a character (i.e. a string of length 1) and returns true if it is a vowel, false otherwise.
 // Then, write and example of using the function.
 
-// function isVowel(char){
-//   return char === 'a' || char === 'e' || char === 'i' || char === 'o' || char === 'u' ||;
-//   }
-//     // Your answer here
-// }
-//  console.log(isVowel())
-//
+function isVowel(char){
+  if (char === 'a' || 'e' || 'i' || 'o' || 'u')
+  return (char)
+  }
+    // Your answer here
+}
+ console.log(isVowel("k"))
+
 // 4.
 // Write a function called `sum` that takes two parameters and returns the sum of those 2 numbers.
 // Then, write and example of using the function.
